@@ -6,7 +6,7 @@ import TopHeading from "@/components/common/UI/TopHeading/TopHeading";
 
 export default function Home() {
   return (
-    <main className="w-full bg-white">
+    <main className="w-full bg-[#FBFCFD]">
       <TopHeading />
       <Breadcrumbs />
       <MainCardSec />
