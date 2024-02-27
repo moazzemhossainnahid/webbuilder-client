@@ -3,8 +3,8 @@ import RelatedCard from '../UI/Cards/RelatedCard/RelatedCard';
 
 const RelatedCardsSec: React.FC = () => {
     return (
-        <div className='w-full md:w-4/5 mx-auto'>
-            <h2 className="text-2xl md:text-3xl">Related deals you might like for</h2>
+        <div className='w-full md:w-4/5 mx-auto py-5'>
+            <h2 className="text-2xl md:text-3xl text-[#2C384A] pb-7">Related deals you might like for</h2>
             <div className="flex flex-col md:flex-row justify-between items-center gap-3">
                 <RelatedCard
                     imageSrc="/img_1.png"
